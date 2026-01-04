@@ -1,0 +1,78 @@
+{% extends "base.html" %}
+
+{% block title %}Membership - FitZone Gym{% endblock %}
+
+{% block content %}
+<section class="membership-section">
+    <div class="container">
+        <h2>Membership Plans</h2>
+        <p class="section-intro">Choose the perfect plan that fits your fitness goals and lifestyle</p>
+        
+        <div class="membership-grid">
+            <div class="membership-card">
+                <h3>Basic</h3>
+                <p class="price">$29<span>/month</span></p>
+                <ul class="features">
+                    <li>✓ Access to gym equipment</li>
+                    <li>✓ Locker room facilities</li>
+                    <li>✓ Free fitness assessment</li>
+                    <li>✗ Group classes</li>
+                    <li>✗ Personal training</li>
+                </ul>
+                <button class="plan-button">Select Plan</button>
+            </div>
+            
+            <div class="membership-card featured">
+                <div class="badge">Most Popular</div>
+                <h3>Premium</h3>
+                <p class="price">$59<span>/month</span></p>
+                <ul class="features">
+                    <li>✓ Access to gym equipment</li>
+                    <li>✓ Locker room facilities</li>
+                    <li>✓ Free fitness assessment</li>
+                    <li>✓ Unlimited group classes</li>
+                    <li>✓ 2 personal training sessions/month</li>
+                </ul>
+                <button class="plan-button">Select Plan</button>
+            </div>
+            
+            <div class="membership-card">
+                <h3>Elite</h3>
+                <p class="price">$99<span>/month</span></p>
+                <ul class="features">
+                    <li>✓ Access to gym equipment</li>
+                    <li>✓ Locker room facilities</li>
+                    <li>✓ Free fitness assessment</li>
+                    <li>✓ Unlimited group classes</li>
+                    <li>✓ 8 personal training sessions/month</li>
+                    <li>✓ Nutrition counseling</li>
+                    <li>✓ Guest passes</li>
+                </ul>
+                <button class="plan-button">Select Plan</button>
+            </div>
+        </div>
+        
+        <div class="services-section">
+            <h3>Additional Services</h3>
+            <div class="services-grid">
+                <div class="service-item">
+                    <h4>Personal Training</h4>
+                    <p>One-on-one sessions with certified trainers - $50/session</p>
+                </div>
+                <div class="service-item">
+                    <h4>Nutrition Consultation</h4>
+                    <p>Customized meal plans and dietary guidance - $75/session</p>
+                </div>
+                <div class="service-item">
+                    <h4>Group Classes</h4>
+                    <p>Drop-in classes available - $15/class</p>
+                </div>
+                <div class="service-item">
+                    <h4>Massage Therapy</h4>
+                    <p>Sports massage and recovery sessions - $80/hour</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}
